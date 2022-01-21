@@ -210,6 +210,6 @@ Client.on("message", message => {
 
 
 
-Client.login("OTI2Nzk5NzQwMjIwMzU0NTkx.YdA7hQ.SIyTp9DFKDuJQ3aE7GYiMqcheWo");
+Client.login(process.env.tocken);
 
 // OTI2Nzk5NzQwMjIwMzU0NTkx.YdA7hQ.d3BAGshnKe9jqsUmvXQ4fv4du4U
