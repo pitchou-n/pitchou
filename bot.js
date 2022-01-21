@@ -1,5 +1,4 @@
 const Discord = require("discord.js");
-const token = process.env.token;
 const Client = new Discord.Client({
     intents: [
         Discord.Intents.FLAGS.GUILDS,
@@ -211,6 +210,6 @@ Client.on("message", message => {
 
 
 
-bot.login(token);
+Client.login("OTI2Nzk5NzQwMjIwMzU0NTkx.YdA7hQ.SIyTp9DFKDuJQ3aE7GYiMqcheWo");
 
 // OTI2Nzk5NzQwMjIwMzU0NTkx.YdA7hQ.d3BAGshnKe9jqsUmvXQ4fv4du4U
